@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ap | sort -d | awk 'BEGIN { ORS = ", " } { print } END { print "\n" }'
+ls -map
