@@ -1,2 +1,2 @@
 #!/bin/bash
-nl | grep 'nl fileone | grep '^[[:space:]]*[0-9]*[13579][[:space:]]' | cut -b 8-
+nl | grep '^[[:space:]]*[0-9]*[13579][[:space:]]' | cut -b 8-
